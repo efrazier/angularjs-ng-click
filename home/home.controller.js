@@ -3,7 +3,11 @@ class HomeCtrl {
     'ngInject';
 
     this.name = "AngularJSjjj";
-    $scope.ga = function(){console.log("click");analyticsTrack("bob")};
+    $scope.ga = function(){
+      
+      console.log("click");analyticsTrack("bob")
+      
+      };
   }
 }
 
